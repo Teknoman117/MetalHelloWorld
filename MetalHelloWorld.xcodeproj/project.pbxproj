@@ -14,6 +14,7 @@
 		F10A52E01B71D71300F5A15D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F10A52DF1B71D71300F5A15D /* Images.xcassets */; };
 		F10A52E31B71D71300F5A15D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F10A52E11B71D71300F5A15D /* LaunchScreen.xib */; };
 		F10A52EF1B71D71300F5A15D /* MetalHelloWorldTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F10A52EE1B71D71300F5A15D /* MetalHelloWorldTests.m */; };
+		F10A52FC1B71D9A900F5A15D /* Shaders.metal in Sources */ = {isa = PBXBuildFile; fileRef = F10A52FB1B71D9A900F5A15D /* Shaders.metal */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		F10A52E81B71D71300F5A15D /* MetalHelloWorldTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MetalHelloWorldTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F10A52ED1B71D71300F5A15D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F10A52EE1B71D71300F5A15D /* MetalHelloWorldTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MetalHelloWorldTests.m; sourceTree = "<group>"; };
+		F10A52FB1B71D9A900F5A15D /* Shaders.metal */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.metal; path = Shaders.metal; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 		F10A52D11B71D71300F5A15D /* MetalHelloWorld */ = {
 			isa = PBXGroup;
 			children = (
+				F10A52FB1B71D9A900F5A15D /* Shaders.metal */,
 				F10A52D61B71D71300F5A15D /* AppDelegate.h */,
 				F10A52D71B71D71300F5A15D /* AppDelegate.m */,
 				F10A52D91B71D71300F5A15D /* ViewController.h */,
@@ -219,6 +222,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F10A52FC1B71D9A900F5A15D /* Shaders.metal in Sources */,
 				F10A52DB1B71D71300F5A15D /* ViewController.m in Sources */,
 				F10A52D81B71D71300F5A15D /* AppDelegate.m in Sources */,
 				F10A52D51B71D71300F5A15D /* main.m in Sources */,
